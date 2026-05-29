@@ -53,6 +53,8 @@ O sistema também garante controle automático de consumo, especialmente no caso
 
 ## 🥗 Requisitos Funcionais (RF)
 
+
+
 | ID | Requisito | Descrição |
 |----|----------|-----------|
 | RF01 | Cadastro de Ingredientes | Permitir cadastrar ingredientes com nome, quantidade e validade |
@@ -72,6 +74,8 @@ O sistema também garante controle automático de consumo, especialmente no caso
 
 ## ⚙️ Requisitos Não Funcionais (RNF)
 
+
+
 | ID | Requisito | Descrição |
 |----|----------|-----------|
 | RNF01 | Desempenho | Atualizar estoque em até 5 minutos após venda |
@@ -80,6 +84,8 @@ O sistema também garante controle automático de consumo, especialmente no caso
 ---
 
 ## 📜 Regras de Negócio (RN)
+
+
 
 | ID | Regra | Descrição |
 |----|------|-----------|
