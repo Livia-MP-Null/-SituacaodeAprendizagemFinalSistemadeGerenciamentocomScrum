@@ -51,45 +51,41 @@ O sistema também garante controle automático de consumo, especialmente no caso
 
 ---
 
-## 🥗 Requisitos Funcionais (RF)
+# Requisitos Funcionais (RF)
 
-
-
-| ID | Requisito | Descrição |
-|----|----------|-----------|
-| RF01 | Cadastro de Ingredientes | Permitir cadastrar ingredientes com nome, quantidade e validade |
-| RF02 | Atualização de Estoque | Atualizar automaticamente a quantidade dos ingredientes |
-| RF03 | Consulta de Estoque | Visualizar ingredientes disponíveis |
-| RF04 | Cadastro de Pratos | Cadastrar pratos com seus ingredientes |
-| RF05 | Registro de Vendas | Registrar vendas no sistema |
-| RF06 | Baixa Automática | Reduzir estoque automaticamente após venda |
-| RF07 | Controle do Prato Feito | Aplicar consumo fixo (200g arroz, 100g feijão) |
-| RF08 | Alerta de Validade | Avisar quando faltar menos de 3 dias para vencer |
-| RF09 | Bloqueio de Venda | Impedir venda sem estoque suficiente |
-| RF10 | Controle de Validade | Mostrar data de validade dos ingredientes |
-| RF11 | Relatórios de Estoque | Gerar relatórios de consumo e estoque |
-| RF12 | Notificação de Baixo Estoque | Avisar quando ingredientes estiverem acabando |
+| Código | Requisito |
+|---------|-----------|
+| RF01 | Criação de Usuários |
+| RF02 | Cadastro de Ingredientes |
+| RF03 | Consulta de Estoque |
+| RF04 | Cadastro de Pratos |
+| RF05 | Venda de Pratos |
+| RF06 | Histórico |
+| RF07 | Baixa Automática de Estoque |
+| RF08 | Baixa de Estoque Composta |
 
 ---
 
-## ⚙️ Requisitos Não Funcionais (RNF)
+# Regras de Negócio (RN)
 
-
-
-| ID | Requisito | Descrição |
-|----|----------|-----------|
-| RNF01 | Desempenho | Atualizar estoque em até 5 minutos após venda |
-| RNF02 | Segurança | Armazenar senhas de forma criptografada |
+| Código | Regra de Negócio |
+|---------|------------------|
+| RN01 | Alerta de Validade |
+| RN02 | Validade Próxima |
+| RN03 | Consumo dos Pratos |
+| RN04 | Bloqueio de Venda |
+| RN05 | Não permitir venda sem ingredientes |
 
 ---
 
-## 📜 Regras de Negócio (RN)
+# Requisitos Não Funcionais (RNF)
 
-
-
-| ID | Regra | Descrição |
-|----|------|-----------|
-| RN01 | Controle de Validade | Ingredientes com menos de 3 dias devem ser destacados |
+| Código | Requisito Não Funcional |
+|---------|------------------------|
+| RNF01 | Facilidade de Uso |
+| RNF02 | Senha para usuário da empresa |
+| RNF03 | Desempenho |
+|
 | RN02 | Consumo do Prato Feito | Consumir automaticamente arroz e feijão na venda |
 | RN03 | Validação de Estoque | Impedir venda sem ingredientes suficientes |
 
