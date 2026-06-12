@@ -234,12 +234,16 @@ Essa metodologia permitiu melhor controle das entregas, organização da equipe 
 ### 📍 Imagem 15
 **Descrição:** Conclusão das funcionalidades previstas no escopo.
 
-![Uploading image.png…]()
+<img width="1667" height="724" alt="image" src="https://github.com/user-attachments/assets/b52ee2c0-7e29-4e41-9c9e-b9f72fe98394" />
 
 ---
 
 ## 🎯 Considerações Finais
 
 A utilização do método Kanban contribuiu para a organização do projeto **StockFlow**, permitindo acompanhar o progresso das tarefas, identificar prioridades e garantir que os requisitos fossem desenvolvidos dentro do cronograma planejado.Por isso utilizamos-o
+
+## Validações
+
+Identificamos áreas que necessitavam de validação e conseguimos corrigir algumas delas. No entanto, ainda existem casos pendentes, como o processo de compra de alimentos, que requer novos ajustes.
 
 ✨ **StockFlow – Inteligência no controle de estoque, menos desperdício e mais eficiência!** 🍽️📦
